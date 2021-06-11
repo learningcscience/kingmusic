@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<link rel = "icon" href ="images/logo.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music King / About</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+  </head>
+  <body>
+
+		<div class="navbar" id="nav">
+			<a href="index.html">Home</a>
+			<a href="music.html">Music</a>
+			<a href="about.html">About</a>		
+			<a href="javascript:void(0);" class="icon" onclick="clickOn()">
+				<i class="fa fa-bars"></i>
+			</a>
+		</div>
+
+
+<section class="about">
+<div class="max-width">
+<h2 class="title">About Us</h2>
+<div class="about-content">
+<div class="column left">
+<img src="images/1.jpg">
+</div>
+<div class="column right">
+<p>
+Music King is an music website. we try to keep you face smile. you can listen a music of you mood. you can also feel background music. 
+we will upload many others bgm (background music ) . it is the website made by lokendra shahi. if you have any new idea you can contact us.
+we will reply. we warmy request you to contact us.
+</p>
+<a href="#contact">Contact Us</a>
+</div>
+</div>
+</div>
+</section>	
+
+
+
+
+<footer>
+   <div class="content">
+     <div class="left box">
+       <div class="upper">
+         <div class="topic">About us</div>
+         <p>Music is the art of arranging sounds in time to produce 
+               a composition through the elements of melody, harmony, rhythm, and timbre.</p>
+       </div>
+       <div class="lower">
+         <div class="topic" id="contact">Contact us</div>
+         <div class="phone">
+           <i class="fas fa-phone"></i>+007 9089 6767
+         </div>
+         <div class="email">
+           <i class="fas fa-envelope"></i>abc@gmail.com
+         </div>
+       </div>
+     </div>
+     <div class="right box">
+       <div class="topic">Subscribe us</div>
+       <form action="#">
+         <input type="text" placeholder="Enter email address">
+         <input type="submit" name="" value="Send">
+       </form>
+     </div>
+   </div>
+   <div class="bottom">
+     <p>Copyright &#169; 2021 <a href="#">King Music</a> All rights reserved</p>
+   </div>
+ </footer>
+		<script>
+		function clickOn(){
+			let nav = document.getElementById("nav");
+			if(nav.className === "navbar"){	
+			nav.className += " clicked";
+			}	
+			else{
+			nav.className = "navbar";	
+		         }
+		}
+	</script>
+
+
+  </body>
+</html>
